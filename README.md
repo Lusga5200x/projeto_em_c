@@ -5,8 +5,7 @@ Projeto em desenvolvimento na linguagem C.
 ## Status
 - Cadastro de cartas ✔
 - Cálculos ✔
-- Menu de comparação entre atributos ❌ (em desenvolvimento)
-- Regras do jogo (vitória/derrota) ❌ (em desenvolvimento)
+- Menu de comparação entre atributos ✔
 - Sistema de pontuação ❌ (em desenvolvimento)
 
 ## Objetivo
@@ -48,10 +47,13 @@ O jogador seleciona um atributo para comparação, como população, área, PIB 
 
 - Exibição completa das cartas
 
+- Menu interativo com escolha de atributos
+  - Jogador escolhe um primeiro atributo
+  - Um segundo menu é exibido dinamicamente
+  - O segundo menu remove automaticamente o atributo já escolhido
+
 ---
 
 ## Em desenvolvimento
 
-- Menu de comparação entre atributos
-- Regras do jogo (vitória/derrota)
 - Sistema de pontuação
