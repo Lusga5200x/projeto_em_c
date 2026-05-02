@@ -14,6 +14,8 @@ int main(void)
     unsigned long populacao1, populacao2;
     
     int pontos_turisticos1, pontos_turisticos2;
+    int opcao1, opcao2, opcao3, opcao4;
+    int comparacao1, comparacao2, comparacao3, comparacao4;
     
     float area1, area2;
     float pib1, pib2;
@@ -22,7 +24,7 @@ int main(void)
     double densidade_pop1, densidade_pop2;
     double pib_percapita1, pib_percapita2;
     
-//Cadastrando carta 1:
+    //Cadastrando carta 1:
 
     printf("Vamos cadastrar a primeira carta\n");
 
@@ -116,24 +118,320 @@ int main(void)
     printf("PIB per Capita: R$%.2f\n", pib_percapita2);
     printf("Super poder: %f\n", super_poder2);
 
+
 // Menu de escolha de atributo
 
-    //Primeiro Menu
+    //Primeiro Menu Jogador1
+    printf("\nJogador 1 escolha um atributo:\n");
+    printf("1 - População\n");
+    printf("2 - Área\n");
+    printf("3 - PIB\n");
+    printf("4 - Pontos túristicos\n");
+    printf("5 - Densidade demográfuca\n");
+    printf("\nEscolha: ");
+    scanf("%d", &opcao1);
+
+    switch (opcao1)
+    {
+    case 1:
+        if (opcao1)
+        {
+            comparacao1 = 1;
+        }
+        
+    break;
+
+    case 2:
+        if (opcao1)
+        {
+            comparacao1 = 2;
+        }
+        
+    break;
+
+    case 3:
+        if (opcao1)
+        {
+            comparacao1 = 3;
+        }
+        
+    break;
+    
+    case 4:
+        if (opcao1)
+        {
+            comparacao1 = 4;
+        }
+        
+    break;
+
+    case 5:
+        if (opcao1)
+        {
+            comparacao1 = 5;
+        }
+        
+    break;
+
+    default:
+
+        printf("escolha uma opção válida");
+
+    break;
+    }
+    
+    //Segundo menu Jogador1
+    printf("\nEscolha outro atributo:\n");
+
+    if (opcao1 == 1)
+    {
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("4 - Pontos túristicos\n");
+        printf("5 - Densidade demográfuca\n");
+    }   
+    
+    else if (opcao1 == 2)
+    {
+        printf("1 - População\n");
+        printf("3 - PIB\n");
+        printf("4 - Pontos túristicos\n");
+        printf("5 - Densidade demográfuca\n");
+    }
+
+    else if (opcao1 == 3)
+    {
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("4 - Pontos túristicos\n");
+        printf("5 - Densidade demográfuca\n");
+    }
+    
+    else if (opcao1 == 4)
+    {
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("5 - Densidade demográfuca\n");
+    }
+    
+    else if (opcao1 == 5)
+    {
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("4 - Pontos túristicos\n");
+    }
+    
+    printf("\nEscolha: ");
+    scanf("%d", &opcao2);
+
+        switch (opcao2)
+    {
+    case 1:
+        if (opcao2)
+        {
+            comparacao2 = 1;
+        }
+        
+    break;
+
+    case 2:
+        if (opcao2)
+        {
+            comparacao2 = 2;
+        }
+        
+    break;
+
+    case 3:
+        if (opcao2)
+        {
+            comparacao2 = 3;
+        }
+        
+    break;
+    
+    case 4:
+        if (opcao2)
+        {
+            comparacao2 = 4;
+        }
+        
+    break;
+
+    case 5:
+        if (opcao2)
+        {
+            comparacao2 = 5;
+        }
+        
+    break;
+
+    default:
+
+        printf("escolha uma opção válida");
+
+    break;
+    }
+    
+    // Menu de escolha de atributo
+
+    //Primeiro Menu Jogador2
+    printf("\nJogador 2 escolha um atributo:\n");
+    printf("1 - População\n");
+    printf("2 - Área\n");
+    printf("3 - PIB\n");
+    printf("4 - Pontos túristicos\n");
+    printf("5 - Densidade demográfuca\n");
+    printf("\nEscolha: ");
+    scanf("%d", &opcao3);
+
+    switch (opcao3)
+    {
+    case 1:
+        if (opcao3)
+        {
+            comparacao3 = 1;
+        }
+        
+    break;
+
+    case 2:
+        if (opcao3)
+        {
+            comparacao3 = 2;
+        }
+        
+    break;
+
+    case 3:
+        if (opcao3)
+        {
+            comparacao3 = 3;
+        }
+        
+    break;
+    
+    case 4:
+        if (opcao3)
+        {
+            comparacao3 = 4;
+        }
+        
+    break;
+
+    case 5:
+        if (opcao3)
+        {
+            comparacao3 = 5;
+        }
+        
+    break;
+
+    default:
+
+        printf("escolha uma opção válida");
+
+    break;
+    }
+    
+    //Segundo menu Jogador1
+    printf("\nEscolha outro atributo:\n");
+
+    if (opcao3 == 1)
+    {
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("4 - Pontos túristicos\n");
+        printf("5 - Densidade demográfuca\n");
+    }   
+    
+    else if (opcao3 == 2)
+    {
+        printf("1 - População\n");
+        printf("3 - PIB\n");
+        printf("4 - Pontos túristicos\n");
+        printf("5 - Densidade demográfuca\n");
+    }
+
+    else if (opcao3 == 3)
+    {
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("4 - Pontos túristicos\n");
+        printf("5 - Densidade demográfuca\n");
+    }
+    
+    else if (opcao3 == 4)
+    {
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("5 - Densidade demográfuca\n");
+    }
+    
+    else if (opcao3 == 5)
+    {
+        printf("1 - População\n");
+        printf("2 - Área\n");
+        printf("3 - PIB\n");
+        printf("4 - Pontos túristicos\n");
+    }
+    
+    printf("\nEscolha: ");
+    scanf("%d", &opcao4);
+
+        switch (opcao4)
+    {
+    case 1:
+        if (opcao4)
+        {
+            comparacao4 = 1;
+        }
+        
+    break;
+
+    case 2:
+        if (opcao4)
+        {
+            comparacao4 = 2;
+        }
+        
+    break;
+
+    case 3:
+        if (opcao4)
+        {
+            comparacao4 = 3;
+        }
+        
+    break;
+    
+    case 4:
+        if (opcao4)
+        {
+            comparacao4 = 4;
+        }
+        
+    break;
+
+    case 5:
+        if (opcao4)
+        {
+            comparacao4 = 5;
+        }
+        
+    break;
+
+    default:
+
+        printf("escolha uma opção válida");
+
+    break;
+    }
+    
     /*
-            - Escolha um atributo
-                1 - População
-                2 - Área
-                3 - PIB
-                4 - Pontos túristicos
-                5 - Densidade demográfica
-        Segundo menu
-            - Escolha um outro atributo
-                1 - População
-                2 - Área
-                3 - PIB
-                4 - Pontos túristicos
-                
-        Um dos escolidos não pode se repetir
 
     5. Comparar
         Atributo 1: compara carta 1 vs carta 2
@@ -148,6 +446,5 @@ int main(void)
 
     FIM
     */
-
     return 0;
 }
